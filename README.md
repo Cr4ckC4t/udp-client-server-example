@@ -1,4 +1,4 @@
-# A UDP Client Server Demo in C (Example: load daemon)
+# A UDP Client Server Demo in C (Example: a simple load daemon)
 
 This code was developed to demonstrate a connectionless communication between a client and a server to exchange information using C sockets and structs. The example mimicks a server that takes UDP requests from any client and reports back to them with a structure that is filled with information about the current load status of the server, namely the average CPU load and the amount of currently logged in users.
 
